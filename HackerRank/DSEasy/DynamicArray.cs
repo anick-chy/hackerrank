@@ -9,6 +9,7 @@
             {
                 arr.Add(new List<int>());
             }
+            
             List<int> answers = new();
             int lastAnswer = 0;
             foreach (var query in queries)
