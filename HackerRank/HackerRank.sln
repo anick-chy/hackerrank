@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS", "DSEasy\DS.csproj", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algo", "Algo", "{96DB47A2-EDC2-430C-AF69-303CA76CDD32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo", "Algo\Algo.csproj", "{733B7778-C184-470B-BB1C-6478B0EBE494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algo", "Algo\Algo.csproj", "{733B7778-C184-470B-BB1C-6478B0EBE494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{175452CE-FB52-4FB6-A461-8B85027F29AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top150", "Top150\Top150.csproj", "{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{733B7778-C184-470B-BB1C-6478B0EBE494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{733B7778-C184-470B-BB1C-6478B0EBE494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{733B7778-C184-470B-BB1C-6478B0EBE494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5182990E-99DB-4FC2-9A25-4EF8C328FF71} = {6AF0B4A2-F8FC-43FD-9D8A-BF4B00405544}
 		{733B7778-C184-470B-BB1C-6478B0EBE494} = {96DB47A2-EDC2-430C-AF69-303CA76CDD32}
+		{A857EF6F-5A2D-4629-92ED-9E1E1CC76E64} = {175452CE-FB52-4FB6-A461-8B85027F29AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E44D37B4-08EE-46ED-AC7C-36AF27C90D79}
